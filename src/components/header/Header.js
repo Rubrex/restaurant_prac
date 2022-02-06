@@ -1,7 +1,11 @@
 import React from "react";
-
+import Navigation from "./Navigation";
 const Header = () => {
-  return <div>Hello from Header</div>;
+  return (
+    <div>
+      <Navigation />
+    </div>
+  );
 };
 
 export default Header;
