@@ -39,6 +39,26 @@ const DISHES = [
       },
     ],
   },
+  {
+    id: 2,
+    name: "BBQ Sirloin Steaks",
+    Image:
+      "https://media.gettyimages.com/photos/sirloin-steaks-picture-id972839180?s=612x612",
+    category: "meal",
+    label: "hot",
+    price: "240",
+    desciption:
+      "Grilling involves cooking food on a rack over a heat source, usually a charcoal fire or ceramic briquettes heated by gas flames.",
+    comments: [
+      {
+        id: 2,
+        rating: 5,
+        comment: "it was juicy ,LOVED IT",
+        author: "Hossain",
+        date: "2021-01-02",
+      },
+    ],
+  },
 ];
 
 export default DISHES;
