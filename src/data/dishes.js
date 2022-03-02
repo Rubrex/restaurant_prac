@@ -3,7 +3,8 @@ const DISHES = [
     id: 0,
     name: "Ginger burger",
     Image:
-      "https://recipefairy.com/wp-content/uploads/2020/08/kfc-zinger-burger.jpg",
+      // "https://recipefairy.com/wp-content/uploads/2020/08/kfc-zinger-burger.jpg"
+      'assets/images/kfc-zinger-burger.png',
     category: "meal",
     label: "hot",
     price: "199",
