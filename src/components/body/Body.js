@@ -7,10 +7,7 @@ import About from "./About";
 const Body = () => {
   return (
     <div>
-      {/* <Home/>
-      <Contact/>
-      <About/> */}
-      <Menu />
+      <Menu></Menu>
     </div>
   );
 };
