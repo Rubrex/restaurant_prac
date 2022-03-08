@@ -24,7 +24,7 @@ class Navigation extends Component {
             <Collapse navbar isOpen={this.state.isNavOpen}>
               <Nav className="mr-auto" navbar>
                 <NavItem>
-                  <NavLink exact to="/" className="nav-link">Home</NavLink>
+                  <NavLink exact to="/home" className="nav-link">Home</NavLink>
                 </NavItem>
                 <NavItem>
                   <NavLink exact to="/menu" className="nav-link">Menu</NavLink>
