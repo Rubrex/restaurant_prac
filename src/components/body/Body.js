@@ -13,7 +13,6 @@ const Body = () => {
       <Route path="/menu" exact component={Menu} />
       <Route path="/contact" exact component={Contact} />
       <Route path="/about" exact component={About} />
-      <Redirect/>
     </div>
   );
 };

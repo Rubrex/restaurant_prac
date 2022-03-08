@@ -40,6 +40,7 @@ class Menu extends Component {
         <div className="row">
           {/* <div className="col-4">{menu}</div>
           <div className="col-8">{dishDetail}</div> */}
+          <h2 style={{margin:'0 auto'}}>Welcome to Chinese Restaurant</h2>
           <CardColumns>
             {menu}
           </CardColumns>
