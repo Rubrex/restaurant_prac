@@ -2,3 +2,8 @@
   text-align: center;
 }
 
+.active {
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(27, 27, 27);
+}
