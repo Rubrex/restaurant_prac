@@ -2,7 +2,6 @@ import React from "react";
 import {
   Card,
   CardImg,
-  CardImgOverlay,
   CardBody,
   CardTitle,
   CardText,
@@ -22,7 +21,7 @@ const DishDetail = (props) => {
             <strong>{props.dish.price}/-</strong>
           </CardText>
           <hr />
-          <LoadComments comments={props.dish.comments} />
+          <LoadComments comments={props.comments} />
         </CardBody>
       </Card>
     </div>

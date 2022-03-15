@@ -10,15 +10,7 @@ const DISHES = [
     price: "199",
     desciption:
       "This recipe is surprisingly easy to make, not to mention healthier than an actual KFC Zinger burger;",
-    comments: [
-      {
-        id: 0,
-        rating: 5,
-        comment: "it was tasty",
-        author: "Akash",
-        date: "2022-01-22",
-      },
-    ],
+
   },
   {
     id: 1,
@@ -30,15 +22,7 @@ const DISHES = [
     price: "80",
     desciption:
       "A thin strip of potato, usually cut 3 to 4 inches in length and about 1/4 to 3/8 inches square that are deep fried until they are golden brown and crisp textured on the outside while remaining white and soft on the inside",
-    comments: [
-      {
-        id: 1,
-        rating: 4,
-        comment: "it was amazing specially the sauce",
-        author: "Akash",
-        date: "2022-02-12",
-      },
-    ],
+
   },
   {
     id: 2,
@@ -50,15 +34,7 @@ const DISHES = [
     price: "240",
     desciption:
       "Grilling involves cooking food on a rack over a heat source, usually a charcoal fire or ceramic briquettes heated by gas flames.",
-    comments: [
-      {
-        id: 2,
-        rating: 5,
-        comment: "it was juicy ,LOVED IT",
-        author: "Hossain",
-        date: "2021-01-02",
-      },
-    ],
+
   },
 ];
 
