@@ -3,7 +3,7 @@ import React from "react";
 
 const LoadComments = (props) => {
   return props.comments.map((comment) => {
-    console.log('from loadcommnets', comment);
+
     return (
 
       <div key={comment.id} className="load_commnets_parent">

@@ -3,9 +3,10 @@ import COMMENTS from '../data/comments'
 
 const initialState = {
     dishes: DISHES,
-    comments: COMMENTS
+    comments: COMMENTS,
+    sample: 'Hello World State'
 }
 
-export const reducer = (state = initialState, action) => {
+export const Reducer = (state = initialState, action) => {
     return state
 }
