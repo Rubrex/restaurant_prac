@@ -7,7 +7,7 @@ import {
   CardText,
 } from "reactstrap";
 import LoadComments from "./LoadComments";
-
+import CommentForm from "./CommentForm";
 const DishDetail = (props) => {
   return (
     <div>
@@ -22,6 +22,8 @@ const DishDetail = (props) => {
           </CardText>
           <hr />
           <LoadComments comments={props.comments} />
+          <hr />
+          <CommentForm dishId={props.dish.id} />
         </CardBody>
       </Card>
     </div>
