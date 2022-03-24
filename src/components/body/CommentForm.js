@@ -35,7 +35,6 @@ class CommentForm extends Component {
     }
     handleSubmit = (e) => {
         this.props.addComment(this.props.dishId, this.state.rating, this.state.author, this.state.comment);
-        console.log(this.props.calc.add(5, 5));
         this.setState({
             ...this.state,
             author: '',
@@ -45,7 +44,6 @@ class CommentForm extends Component {
         e.preventDefault();
     }
     render() {
-        console.log(this.props);
         return (
             <div>
                 <Form onSubmit={this.handleSubmit}>
