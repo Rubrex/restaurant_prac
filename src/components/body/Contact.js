@@ -26,6 +26,15 @@ class Contact extends Component {
     }
     handleSubmit = event => {
         console.log(this.state);
+        this.setState({
+            firstname: "",
+            lastname: "",
+            telnum: "",
+            email: "",
+            agree: false,
+            contactType: "tel.",
+            message: ""
+        });
         event.preventDefault();
     }
     render() {
