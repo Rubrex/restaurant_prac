@@ -1,6 +1,7 @@
 import DISHES from '../data/dishes'
 import COMMENTS from '../data/comments'
 import { combineReducers } from 'redux'
+import * as actionTypes from './actionTypes'
 
 const dishReducer = (dishState = DISHES, action) => {
     switch (action.type) {
@@ -10,7 +11,7 @@ const dishReducer = (dishState = DISHES, action) => {
 }
 const commentsReducer = (commentState = COMMENTS, action) => {
     switch (action.type) {
-        case 'ADD_COMMENT':
+        case actionTypes.ADD_COMMENT:
             // parsing dispatch actions value
             let comment = action.payload;
             // add id to comment
