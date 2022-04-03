@@ -1,6 +1,8 @@
 import COMMENTS from '../data/comments'
 import { combineReducers } from 'redux'
 import * as actionTypes from './actionTypes'
+import { InitialContactForm } from './forms'
+import { createForms } from 'react-redux-form' //Using this for Contact.js dummy data
 
 const dishReducer = (dishState = { isLoading: false, dishes: [] }, action) => {
     switch (action.type) {
@@ -38,4 +40,7 @@ const commentsReducer = (commentState = COMMENTS, action) => {
 export const Reducer = combineReducers({
     dishes: dishReducer,
     comments: commentsReducer,
+    ...createForms({
+        feedback: InitialContactForm
+    })
 })
